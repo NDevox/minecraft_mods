@@ -1,12 +1,11 @@
-import mcpi.minecraft as minecraft
-import mcpi.block as block
-
 import time
 
+import mcpi.block as block
+import mcpi.minecraft as minecraft
 
 mc = minecraft.Minecraft.create()
 
-mc.postToChat("Hello, World!")
+mc.postToChat("connected")
 
 def goldsteps():
     pos = mc.player.getTilePos()
